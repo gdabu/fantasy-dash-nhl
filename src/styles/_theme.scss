@@ -1,0 +1,61 @@
+* {
+  font-family: "Roboto-Black", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+p {
+  margin: 0px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: 1px solid #ffffff00;
+  min-width: 150px;
+  cursor: pointer;
+  transition: background 0.2s linear, color 0.2s linear;
+  color: white;
+  background: #3f3356;
+
+  &:hover {
+    background: #261c38;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    transition: background 0.05s linear;
+    background: #331077;
+  }
+}
+
+.btn__secondary {
+  color: #3f3356;
+  background: white;
+  box-shadow: none;
+  &:hover {
+    color: white;
+  }
+}
+
+.subLabel {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 0.6;
+}
+
+.subHeader {
+  font-size: 18px;
+}
